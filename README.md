@@ -4,6 +4,6 @@ Simple Cookie Clicker in Kaboom.
 
 ## Build
 
-Build javascript with `node buildJs`
+Build javascript with `npm run buildJs`
 
-Run the server with `node runServer`
+Run the server with `npm run runServer`
