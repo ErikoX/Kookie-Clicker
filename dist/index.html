@@ -7,7 +7,12 @@
     <title>Kaboom!</title>
     <style>
         body {
-            background: rgb(0, 0, 0);
+            background: rgb(61, 113, 216);
+            background-image: url("sprites/bg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
             color: white;
             text-align: center;
             display: flex;
@@ -16,13 +21,17 @@
             
         }
         canvas {
-            display:block;
-            /* cursor: none !important; <<< for hiding cursor (to make custom cursors)*/
+            display:block !important;
+            cursor: none !important;
         }
     </style>
 </head>
 <body>
-    <canvas id="game"></canvas>
+    <div>
+        <canvas id="game"></canvas>
+    </div>
+        
+    
     <script type="module" src="dist.js"></script>
 </body>
 </html>
